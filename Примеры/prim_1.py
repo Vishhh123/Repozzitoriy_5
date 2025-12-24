@@ -19,3 +19,4 @@ if __name__ == "__main__":
 
     y = (a.difference(d)).union(cn.difference(bn))
     print(f"y = {y}")
+
