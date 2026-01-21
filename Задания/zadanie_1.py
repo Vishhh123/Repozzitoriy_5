@@ -4,13 +4,9 @@
 if __name__ == "__main__":
 
     alfavit_glasn = set("aeiouyаеёиоуыэюяAEIOUYАЕЁИОУЫЭЮЯ")
-
     text = input("Введите строку: ")
-
     chars = set(text)
-
     peresechenie = chars.intersection(alfavit_glasn)
-
     count = 0
 
     for char in text:
